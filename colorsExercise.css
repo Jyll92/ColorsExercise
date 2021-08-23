@@ -1,0 +1,48 @@
+body {
+    background-color: #707070;
+}
+
+h1 {
+    background-color: red;
+    color:darkred;
+}
+h2 {
+    background-color: #F80;
+    color: #FD4
+}
+h3 {
+    background-color: #FFFF00;
+    color: #86860f;
+}
+h4 {
+    background-color: #00FF00F2;
+    color: #0e830ef2;
+}
+h5 {
+    background-color: #00FF;
+    color: #38CF;
+}
+h6 {
+    background-color: rgb(111, 0, 255);
+    color:rgb(45, 10, 100)
+}
+p {
+    background-color: rgba(155, 0, 200, 90);
+    color: rgba(30, 10, 160, 90);
+}
+li:first-child {
+    color: hotpink;
+}
+li:last-child {
+    background-color: peachpuff;
+}
+
+li:nth-child(odd) {
+    border: 5px solid green;
+}
+
+    /* WHY WONT YOU WORK
+
+    li:first-child:last-child {
+    border: 5px solid green;
+    } */
